@@ -1,0 +1,14 @@
+Estructura json
+Base de datos {
+	Silla{
+		id: 1(PK),
+		mesa: Mesa1(FK),
+		disponible: True
+	}
+	Mesa{
+		id: 1(PK),
+		ubicacion: 1,
+		disponible: True
+	}
+
+}
