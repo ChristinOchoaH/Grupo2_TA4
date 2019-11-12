@@ -3,7 +3,8 @@ Base de datos {
 	Usuario{
 		id: 1(PK),
 		nombre_usuario:usuario1,
-		password:encriptada
+		password:encriptada,
+		encargado: True
 	}
 	Silla{
 		id: 1(PK),
