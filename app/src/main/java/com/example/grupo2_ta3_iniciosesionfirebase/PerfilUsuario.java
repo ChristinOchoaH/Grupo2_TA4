@@ -103,4 +103,9 @@ public class PerfilUsuario extends AppCompatActivity {
         tweets.child(tweet).child("telefono").setValue(phoneNumber);
     }
 
+    public void irRegistros(View view){
+        Intent intent = new Intent(this, registros.class);
+        startActivity(intent);
+    }
+
 }
